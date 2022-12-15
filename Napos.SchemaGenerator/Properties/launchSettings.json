@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Napos.SchemaGenerator": {
+      "commandName": "Project",
+      "commandLineArgs": "../../../../Napos.Domain/schema.json"
+    }
+  }
+}

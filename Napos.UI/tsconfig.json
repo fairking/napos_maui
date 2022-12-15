@@ -1,0 +1,51 @@
+{
+    "extends": "@quasar/app-vite/tsconfig-preset",
+    "compilerOptions": {
+        "target": "ES2015",
+        "module": "esnext",
+        "strict": true,
+        "jsx": "preserve",
+        "importHelpers": true,
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "sourceMap": true,
+        "baseUrl": ".",
+        "paths": {
+            "src/*": [
+                "src/*"
+            ],
+            "app/*": [
+                "*"
+            ],
+            "components/*": [
+                "src/components/*"
+            ],
+            "layouts/*": [
+                "src/layouts/*"
+            ],
+            "pages/*": [
+                "src/pages/*"
+            ],
+            "assets/*": [
+                "src/assets/*"
+            ],
+            "boot/*": [
+                "src/boot/*"
+            ],
+            "stores/*": [
+                "src/stores/*"
+            ],
+            "services/*": [
+                "src/services/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.d.ts",
+        "src/**/*.tsx",
+        "src/**/*.vue"
+    ]
+}
