@@ -2,6 +2,8 @@
 
 ## How to run, build
 
+Things first: `npm install` in `\Napos.UI`
+
 You can run the application in two modes
 
 1. Run as web (development):
